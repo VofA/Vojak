@@ -1,0 +1,24 @@
+@import "libs"
+@import "vars"
+@import "fonts"
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: $default-font
+  // transition: all 0.3s ease
+
+  &:before, &:after
+    box-sizing: border-box
+  &:focus
+    outline: none
+
+.preview
+  border: 1px solid grey
+  padding: 20px 50px
+  .title
+    font-size: 20px
+    margin-bottom: 20px
+
+@import "media"
